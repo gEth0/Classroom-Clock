@@ -16,6 +16,30 @@ or
 ```python
 python classroom-clock.py
 ```
+## Setting up files :
+### In the lessonsSchedule.json file replace the links in the square brackets to your classroom pages in the order you have the lessons that day.
+It should look like this : 
+``` json
+{
+    "Monday": [
+        "https://linktosomething.com"
+    ],
+    "Tuesday": [
+        "https://linktosomething.com"
+    ],
+    "Wednesday": [
+        "https://linktosomething.com"
+    ],
+    "Thursday": [
+        "https://linktosomething.com"
+    ],
+    "Friday": [],
+    "Saturday": [
+        "https://linktosomething.com"
+    ],
+    "Sunday": []
+}
+```
 ## Found a bug or an issue?
 Report it on the issue tab up here
 
